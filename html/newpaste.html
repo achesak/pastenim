@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>pastenim</title>
+        <link rel="stylesheet" type="text/css" href="../css/pastenim.css" />
+    </head>
+
+    <body>
+        <form action="/submit" method="post">
+
+            <h1>New paste</h1>
+
+            <div class="error" style="display: {BLANKFIELDERROR}">Error: title and text cannot be blank</div>
+
+            <p>Title: <input type="text" id="title" name="title" /></p>
+            <p>Text:<br /><textarea id="text" name="text"></textarea></p>
+
+            <p><input type="submit" value="Submit" id="submit" name="submit" /></p>
+
+        </form>
+    </body>
+</html>
